@@ -1,0 +1,100 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.n-list ul{
+    color: rgb(24, 174, 239);
+}
+
+.n-left {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: progress;
+    color: #777;
+}
+
+.n-name:hover {
+    animation: animate 2s infinite;
+}
+@keyframes animate {
+    from {color: brown;}
+    to {color: blue;}
+}
+
+.n-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.n-list {
+        flex: 10;
+}
+.n-list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.n-list > ul > li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.n-button {
+    flex: 2;
+}
+
+li:hover {
+    color: var(--orange);
+}
+
+@media only screen and (min-width: 480px) and (max-width: 700px) {
+
+    .n-button{
+        display: 'none';
+    }
+
+    .n-name{
+        font-size: 1.5rem;
+    }
+
+    .i-button{
+        margin-bottom: 50px;
+    }
+
+    .button{
+        margin-right: 80px;
+    }
+
+    .n-name {
+        margin-left: -40px;
+        color: #777;
+    }
+
+    .n-list ul {
+        position: absolute;
+        flex-direction: column;
+        margin-top: -20px;
+        margin-left: 35%;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: rgb(238, 236, 128);
+        color: rgb(24, 174, 239);   
+        
+    }
+
+}
