@@ -1,10 +1,10 @@
 import React from 'react';
 import './Portfolio.css';
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png"
-import HOC from "../../img/musicapp.png";
-import Musicapp from "../../img/musicapp.png";
+import Simple from "../../img/simple.png";
+import Start from "../../img/start2.jpg"
+import Btn from "../../img/Btn.jpg";
+import Github from "../../img/github.jpg";
 import 'swiper/css'
 
 const Portfolio = () => {
@@ -22,19 +22,22 @@ const Portfolio = () => {
         className='portfolio-slider'
         >
             <SwiperSlide>
-                <img src={Sidebar} alt='' />
+                <a href='https://www.youtube.com/watch?v=Ogg1dxLOAcI'> 
+                <img src={Simple} alt='' /> </a>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Ecommerce} alt='' />
+                <a href='https://www.youtube.com/watch?v=q9o2VSTmrzk&t=5s'>
+                <img src={Github} alt='' /> </a>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={HOC} alt='' />
+                <a href='https://www.youtube.com/watch?v=znvundghAmo'> 
+                <img src={Btn} alt='' /> </a>
             </SwiperSlide>
 
             <SwiperSlide>
-                <img src={Musicapp} alt='' />
+                <img src={Start} alt='' />
             </SwiperSlide>
 
         </Swiper>
