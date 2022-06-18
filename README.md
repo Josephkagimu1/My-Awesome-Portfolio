@@ -1,8 +1,9 @@
 ![Screen Shot 2022-06-18 at 3 53 07 PM](https://user-images.githubusercontent.com/88326256/174438712-da2cbdde-1765-48af-b88c-c7577f4c7ed2.png)
 
-## View it live : https://josephkagimu-portfolio.netlify.app/
+### View it live : https://josephkagimu-portfolio.netlify.app/
 
-# Getting Started with Create React App
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
