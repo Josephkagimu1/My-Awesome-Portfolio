@@ -1,7 +1,6 @@
-## View the Portfolio outline here .
 ![Screen Shot 2022-06-18 at 3 53 07 PM](https://user-images.githubusercontent.com/88326256/174438712-da2cbdde-1765-48af-b88c-c7577f4c7ed2.png)
 
-
+## View it live : https://josephkagimu-portfolio.netlify.app/
 
 # Getting Started with Create React App
 
