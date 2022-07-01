@@ -2,7 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 import {Swiper, SwiperSlide} from 'swiper/react'
 import Simple from "../../img/simple.png";
-import Start from "../../img/start2.jpg"
+import Counter from "../../img/counter.png";
 import Btn from "../../img/Btn.jpg";
 import Github from "../../img/github.jpg";
 import 'swiper/css'
@@ -27,6 +27,11 @@ const Portfolio = () => {
             </SwiperSlide>
 
             <SwiperSlide>
+                <a href='https://www.youtube.com/watch?v=XalMUZh50vE&t=133s'>
+                <img src={Counter} alt='' /> </a>
+            </SwiperSlide>
+
+            <SwiperSlide>
                 <a href='https://www.youtube.com/watch?v=q9o2VSTmrzk&t=5s'>
                 <img src={Github} alt='' /> </a>
             </SwiperSlide>
@@ -36,9 +41,7 @@ const Portfolio = () => {
                 <img src={Btn} alt='' /> </a>
             </SwiperSlide>
 
-            <SwiperSlide>
-                <img src={Start} alt='' />
-            </SwiperSlide>
+            
 
         </Swiper>
     </div>
