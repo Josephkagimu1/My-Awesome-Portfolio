@@ -53,7 +53,7 @@
     left: -18rem;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 700px) {
+@media (max-width: 700px) {
     .services{
         margin-top: 450px;
         flex-direction: column;
@@ -69,4 +69,6 @@
     .cards>*{
         position: static;
     }
+
+
 }

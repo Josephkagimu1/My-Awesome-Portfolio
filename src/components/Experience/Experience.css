@@ -41,7 +41,7 @@
     color: var(--orange);
 }
 
-@media only screen and (min-width: 480px) and (max-width: 700px) {
+@media (max-width: 700px) {
     .experience {
         gap: 2rem;
     }

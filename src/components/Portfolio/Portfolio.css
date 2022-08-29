@@ -28,23 +28,35 @@
 }
 
 .portfolio img {
-    width: 19rem;
+    width: 14rem;
     filter: drop-shadow(-10);
     border-radius: 19px;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 700px) {
+@media (max-width: 700px) {
     .portfolio {
         margin-top: 350px;
         display: flex;
         flex-direction: column;
         height: 70vh;
-        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    .portfolio .heading{
+        font-size: 45px;
+    }
+
+    .portfolio span{
+        margin-top: 20px;
     }
 
     .portfolio-slider{
         padding: 100px;
         width: 1000px;
+    }
+
+    .portfolio img {
+        width: 12rem;
     }
 
 }

@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="Portfolio">
         {/* heading */}
-        <span style={{fontSize: '50px'}}>Recent Projects</span>
+        <span className="heading" >Recent Projects</span>
         <span>Portfolio</span>
 
         {/* slider */}
@@ -40,8 +40,6 @@ const Portfolio = () => {
                 <a href='https://www.youtube.com/watch?v=znvundghAmo'> 
                 <img src={Btn} alt='' /> </a>
             </SwiperSlide>
-
-            
 
         </Swiper>
     </div>

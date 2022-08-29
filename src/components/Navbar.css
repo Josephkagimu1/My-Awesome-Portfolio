@@ -62,7 +62,7 @@ li:hover {
     color: var(--orange);
 }
 
-@media only screen and (min-width: 480px) and (max-width: 700px) {
+@media (max-width: 700px) {
 
     .n-button{
         display: 'none';
@@ -88,13 +88,23 @@ li:hover {
     .n-list ul {
         position: absolute;
         flex-direction: column;
-        margin-top: -20px;
-        margin-left: 35%;
+        margin-top: 25px;
+        margin-left: 25%;
         border-radius: 20px;
         padding: 10px;
         background-color: rgb(238, 236, 128);
         color: rgb(24, 174, 239);   
         
+    }
+
+    .n-list ul::before{
+        content: '';
+        background-color: rgb(238, 236, 128);
+        width: 50px;
+        height: 50px;
+        transform: rotate(45deg);
+        margin-left: 70px;
+        margin-top: -20px;
     }
 
 }

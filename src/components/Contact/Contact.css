@@ -45,10 +45,12 @@ textarea {
 
 @media only screen and (min-width: 480px) and (max-width: 700px) {
     .contact-form {
-        padding: 0 2rem 0 2rem;
+        padding: 20px;
         justify-content: center;
         display: flex;
         height: 60vh;
         margin-top: 3rem;
+        margin-left: 50px;
     }
+
 }
