@@ -2,7 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    
 }
 
 .n-list ul{
@@ -62,7 +62,24 @@ li:hover {
     color: var(--orange);
 }
 
+.nav-btn {
+    display: none;
+}
+
 @media (max-width: 700px) {
+
+    .nav-btn {
+        display: flex;
+        position: absolute;
+        margin-left: 70px;
+        top: -12px;
+        background-color: rgb(238, 236, 128);
+    }
+
+    .n-list {
+        position: absolute;
+        margin-left: -100px;
+    }
 
     .n-button{
         display: 'none';
@@ -88,7 +105,7 @@ li:hover {
     .n-list ul {
         position: absolute;
         flex-direction: column;
-        margin-top: 25px;
+        margin-top: 28px;
         margin-left: 25%;
         border-radius: 20px;
         padding: 10px;

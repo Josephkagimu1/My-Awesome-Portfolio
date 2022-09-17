@@ -2,6 +2,8 @@
     display: flex;
     height: 77vh;
     margin-top: 4rem;
+    padding: 0;
+    margin-left: -10px;
 }
 .i-left {
     display: flex;
@@ -132,6 +134,10 @@ span {
         margin-top: 0.1rem;
         display: flex;
         gap: 0rem;
+    }
+
+    .i-name {
+        width: 200px;
     }
 
     .i-name>:nth-child(1) {
