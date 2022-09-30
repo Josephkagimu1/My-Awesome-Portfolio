@@ -1,10 +1,10 @@
 import React from 'react';
 import './Portfolio.css';
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Simple from "../../img/simple.png";
+import Simple from "../../img/simple.jpg";
 import Counter from "../../img/counter.png";
-import Btn from "../../img/Btn.jpg";
-import Github from "../../img/github.jpg";
+import Speech from "../../img/text-to-speech.jpg";
+import Login from "../../img/login-form.jpg";
 import 'swiper/css'
 
 const Portfolio = () => {
@@ -22,8 +22,13 @@ const Portfolio = () => {
         className='portfolio-slider'
         >
             <SwiperSlide>
-                <a href='https://www.youtube.com/watch?v=Ogg1dxLOAcI'> 
+                <a href='https://www.youtube.com/watch?v=JO2lgsVaqzc&t=8s'> 
                 <img src={Simple} alt='' /> </a>
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <a href='https://www.youtube.com/watch?v=0aRX-akVJLQ&t=15s'>
+                <img src={Login} alt='' /> </a>
             </SwiperSlide>
 
             <SwiperSlide>
@@ -32,13 +37,8 @@ const Portfolio = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <a href='https://www.youtube.com/watch?v=q9o2VSTmrzk&t=5s'>
-                <img src={Github} alt='' /> </a>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <a href='https://www.youtube.com/watch?v=znvundghAmo'> 
-                <img src={Btn} alt='' /> </a>
+                <a href='https://www.youtube.com/watch?v=1Y1pcFtKjeY&t=76s'> 
+                <img src={Speech} alt='' /> </a>
             </SwiperSlide>
 
         </Swiper>

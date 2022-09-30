@@ -63,7 +63,25 @@ li:hover {
 }
 
 .nav-btn {
-    display: none;
+    position: absolute;
+    margin-left: -250px;
+}
+
+.nav-btn-open{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -15px;
+    animation: animate 1s linear infinite;
+    background-color: #fff;
+}
+@keyframes animate {
+    from{background-color: #fff;}
+    to{background-color: var(--orange);}
+}
+
+.nav-btn-close{
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 @media (max-width: 700px) {
@@ -71,9 +89,14 @@ li:hover {
     .nav-btn {
         display: flex;
         position: absolute;
-        margin-left: 70px;
+        margin-left: 200px;
         top: -12px;
         background-color: rgb(238, 236, 128);
+    }
+
+    .nav-btn-close{
+        margin-left: -100px;
+        margin-top: -10px;
     }
 
     .n-list {

@@ -24,17 +24,19 @@ const Navbar = () => {
         <div className="n-right">
         <div className="n-list">
         
+        <div className='nav-btn'>
         {show ? (
             <button 
-            className='nav-btn'
+            className='nav-btn-close'
             onClick={() => setShow(false)}
-            > close </button>
+            > close Nav </button>
         ) : (
           <button 
-            className='nav-btn'
+            className='nav-btn-open'
             onClick={() => setShow(true)}
-            > Nav </button>
+            > Show Nav </button>
         )}
+        </div>
         
 
           {show ? (
