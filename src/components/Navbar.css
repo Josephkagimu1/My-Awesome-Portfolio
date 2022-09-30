@@ -68,8 +68,8 @@ li:hover {
 }
 
 .nav-btn-open{
-    position: absolute;
-    margin-left: -100px;
+    /* position: absolute; */
+    margin-left: 60px;
     margin-top: -15px;
     animation: animate 1s linear infinite;
     background-color: #fff;
@@ -80,7 +80,7 @@ li:hover {
 }
 
 .nav-btn-close{
-    margin-left: 40px;
+    margin-left: 150px;
     margin-top: 20px;
 }
 
