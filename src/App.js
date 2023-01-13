@@ -20,7 +20,6 @@ function App() {
     <div className="App"
     style={{ background: darkMode? 'black': '', 
              color : darkMode? 'white': ''}}
-    
     >
       <Navbar />
       <Intro />
